@@ -17,7 +17,7 @@ const TeamDetails = () => {
 
     // const newDetails=league.map(team =>team);
 
-    const { strGender, strLeague, strCountry, dateFirstEvent, strSport, strBadge, strDescriptionEN, strFacebook, strTwitter, strYoutube, strBanner } = league;
+    const { strGender, strLeague, strCountry, dateFirstEvent, strSport, strBadge, strDescriptionEN, strFacebook, strTwitter, strYoutube} = league;
 
 
     return (
