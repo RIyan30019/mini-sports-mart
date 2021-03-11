@@ -1,0 +1,12 @@
+.header-style{
+    background-image: url('../../images/banner.jpg');
+    height: 300px;
+    color:aliceblue;
+   
+    text-align: center;
+    background-position: center;
+}
+.header-style p{
+    font-size: 50px;
+    /* margin-top: 150px; */
+}
