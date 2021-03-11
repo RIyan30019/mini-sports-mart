@@ -13,7 +13,7 @@ const Players = (props) => {
 
 
 
-        <div className="bg-light col-md-4">
+        <div className="bg-light col-md-4 p-4">
             <Card className="d-grid gap-1" style={{ width: '20rem' }}>
                 {/* <Card.Img variant="top" src="../../images/image4.png" /> */}
 

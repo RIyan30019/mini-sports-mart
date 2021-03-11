@@ -26,25 +26,30 @@ const TeamDetails = () => {
             <div className="row">
                 <div className="col-md-6">
                     <h3>{strLeague}</h3>
-                    <p> <FontAwesomeIcon icon={faHourglassStart} />Founded:{dateFirstEvent}</p>
-                    <p> <FontAwesomeIcon icon={faFlag} />Country:{strCountry}</p>
-                    <p> <FontAwesomeIcon icon={faFutbol} />Sports Type:{strSport} </p>
-                    <p> <FontAwesomeIcon icon={faVenusMars} />Gender:{strGender}</p>
+                    <p> <FontAwesomeIcon icon={faHourglassStart} />  Founded : {dateFirstEvent}</p>
+                    <p> <FontAwesomeIcon icon={faFlag} />  Country :  {strCountry}</p>
+                    <p> <FontAwesomeIcon icon={faFutbol} />  Sports Type : {strSport} </p>
+                    <p> <FontAwesomeIcon icon={faVenusMars} />  Gender :  {strGender}</p>
 
 
                 </div>
-                <div className=" badge div col-md-5">
+                <div className="badge div col-md-5">
 
                     <img src={strBadge} alt="" />
                 </div>
             </div>
-            <div className="team-details d-flex bd-highlight image-position">
+            <div className="row">
+            <div className="col-md-4 d-flex bd-highlight image-position">
                 {
                     strGender === 'Male' ? <img src="https://i.ibb.co/DbSDtxL/male.png" alt="" /> : <img src="https://i.ibb.co/Vq288xw/female.png" alt="" />
 
                 }
+                </div>
 
-                <p> {strDescriptionEN}</p>
+               <div className= "col-md-7">
+               <p> {strDescriptionEN}</p>
+               </div>
+            
             </div>
             <div className="icon">
                 <a href={`https://${strFacebook}`} target="_blank" rel="noreferrer" >  <img src="https://i.ibb.co/Zf2wFGR/Facebook.png" alt="" /> </a>
