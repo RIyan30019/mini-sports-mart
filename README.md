@@ -1,13 +1,26 @@
-# Welcome to our mini sport mart.
+# Mini Sports Mart
+
+A simple website to see the details of your favorite sports team.
+Explore them and see their history. Also, have the option to see their social accounts.
+
+## Live Link
+
+https://eloquent-archimedes-38deed.netlify.app
+
+## Features
+
+ * Explore team details
+ * see their history, flags, and logo
+ * See their social sites
 
 
-##This project is about selecting leagues from various option and learn about every details.
+## Front-End Technology
 
-### There are in total 4 comonents in this project and here has been used api to fetch data
+ * HTML
+ * CSS
+ * React js
+ * Bootstrap 
 
-If someonne clicks on the explore button they can explore more details about a soecific league which is very interstiing
-
-####This site is absolutley colorful which mesmerizing someoe's eyes.
 
 
 
